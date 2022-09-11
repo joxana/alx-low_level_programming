@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-*
-*main is an entry point
+* main is a entry point
 *
 */
 int main(void)
@@ -10,11 +9,11 @@ int main(void)
 	int i;
 	long li;
 	long long lli;
-	
-	printf("size of a char: %ld byte(s)\n", sizeof(c));
-	printf("size of an int: %ld byte(s)\n", sizeof(i));
-	printf("size of a long int: %ld byte(S)\n", sizeof(li);
-	printf("size of a long long int: %ld byte(s)\n,sizeof(lli));
-	retrun (0);
-}
 
+        printf("the size of char: %ld byte(s)", sizeof(c));
+	printf("the size of an int: %ld byte(s)", sizeof(i));
+	printf("the size of a long: %ld byte(s)", sizeof(li));
+	printf("the size of a long long: %ld byte(s)", sizeof(lli));
+	return (0);
+}
+       	
