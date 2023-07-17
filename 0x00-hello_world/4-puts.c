@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void)
-/*
+/**
  *function displays programmed scripts
  *
  *
