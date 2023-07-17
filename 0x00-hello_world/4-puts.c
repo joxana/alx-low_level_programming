@@ -1,6 +1,11 @@
 #include <stdio.h>
 /**
- * this function displays a specified caracter
+ * main - Entry point
+ * 
+ * Description: C program that prints exactly "Programming is like building a multilingual puzzle
+ * 
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
