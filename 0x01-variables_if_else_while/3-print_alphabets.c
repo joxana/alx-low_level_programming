@@ -13,7 +13,6 @@ for (a = 'a'; a <= 'z'; a++)
 {
 	putchar(a);
 }
-printf("\n");
 for (b = 'A'; b <= 'Z'; b++)
 {
 	putchar(b);
