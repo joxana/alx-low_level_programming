@@ -7,9 +7,8 @@
  */
 int main(void)
 {
-	char n = '0';
-	char c = ',';
-
+	int n = '0';
+	int c = 44
 	while (n >= '0' && n <= '9')
 	{
 		putchar(n);
