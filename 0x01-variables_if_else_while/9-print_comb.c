@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int n = '0';
-	int c = 44
-	while (n >= '0' && n <= '9')
+	int n = 48;
+	int c = 44;
+	while (n >= 48 && n <= 57)
 	{
 		putchar(n);
 		putchar(c);
