@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - is an entry point of execution
+ *
+ * Description: program prints the hexadecimal digits
+ * Retrun: returns zero value
+ */
+int main(void)
+{
+	int hexa = 0x01;
+	while (hexa >= 0x01 && hexa <= 0x1f)
+	{
+		putchar(hexa);
+		hexa++;
+	}
+	putchar('\n');
+	return (0);
+}

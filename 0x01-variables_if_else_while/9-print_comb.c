@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * Description: prints all possibele single digit
+ * Return: returns 0
+ */
+int main(void)
+{
+	char n = '0';
+	char c = ',';
+
+	while (n >= '0' && n <= '9')
+	{
+		putchar(n);
+		putchar(c);
+		putchar(' ');
+		n++;
+	}
+return (0);
+}

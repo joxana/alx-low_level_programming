@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - an entry point of the program
+ *
+ * Description: prints the small letters
+ * Return: zero(0)
+ */
+int main(void)
+{
+	char small;
+	small = 'a';
+	while ((small = 'a' && small <= 'z'))
+	{
+		putchar(small);
+		small++;
+        }
+	putchar('\n');
+return (0);
+}
